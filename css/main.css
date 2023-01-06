@@ -21,19 +21,18 @@ header .inner .right_menu li:nth-child(1) {
     margin-right: 20px;
 }
 
-/* .main_visual */
-/* .main_visual {
-    width: calc(100% - 200px);
+/*  .main_visual */
+.main_visual {
+    /* width: calc(100% - 200px);
     height: calc(100vh - 100px);
-    margin: 0 auto;
-} */
-.main_visual img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    margin: 0 auto; */
+}
+.main_visual video {
+    height: 960px;
+    width: 1920px;
 }
 
-/* .video */
+/*  .video */
 .video {
     padding: 180px 0;
 }
@@ -46,7 +45,7 @@ header .inner .right_menu li:nth-child(1) {
     position: relative;
     color: #333;
 }
-.video .tab_menu li.on::before { 
+.video .tab_menu li.on::before {
     content: '';
     width: 6px;
     height: 6px;
@@ -57,7 +56,7 @@ header .inner .right_menu li:nth-child(1) {
     top: -10px;
     left: 50%;
     transform: translateX(-50%);
-
+     
 }
 
 .video .list {
@@ -197,10 +196,37 @@ header .inner .right_menu li:nth-child(1) {
     margin-top: 40px;
 }
 
+/*  .graphic */
+.graphic {
+    padding: 180px 0;
+}
+.graphic .title {
+    text-align: center;
+}
+.graphic .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
+    /* item들을 가로로 나열
+    양끝에 붙여서 정렬 
+    item이 4개까지 배치되고 그 이상은
+    밑으로 떨어지도록 설정*/
+    
 
+}
+.graphic .list .item {
+    /* 가로값 : 전체에서 4개씩 배치 item 사이 간격은 15px */
+    width: calc(100% / 4 - 15px);
+    margin-bottom: 30px;
+}
+.graphic .list .item a img {
+    /* 이미지 높이 340px */
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
 .graphic .list .item .info h4 {
     margin: 15px 0 10px;
     font-size: 25px;
-
 }

@@ -1,0 +1,315 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 img {
+    width: 249px;
+    height: 49px;
+    /* margin-right: 240px; */
+    margin-top: 50px;
+}
+
+
+
+li {
+    list-style: none;
+    
+    font-family: 'Malgun Gothic';
+
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+body {
+    
+    line-height: 1;
+
+}
+
+header {
+height: 150px;
+line-height: 150px;
+width: 100%;
+}
+
+header .inner {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+header .inner nav ul li {
+    display: inline-block;
+    padding: 0 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+    font-family: 'Malgun Gothic';
+}
+
+
+
+header .inner nav img {
+    width: 24px;
+    height: 24px;
+    margin-left: 90px;
+}
+
+
+
+
+ /* 😀.main_visual */
+ .main_visual {
+    height: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.main_visual video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.bg_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg_text p {
+    text-align: center;
+    font-size: 52px;
+    color: #fff;
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    text-shadow: 5px 5px #111;
+}
+
+b {
+    background-image: url(bg1.png);
+}
+
+
+
+
+/* cont01❤❤❤❤ */
+
+
+
+.cont01{
+    display: flex;
+  
+    
+}
+.cont01::after {
+    background-image: url(../img/bg1.png);
+    width: 2130px;
+    height: 1420px;
+}
+
+
+
+.cont01 img {
+    width: 703px;
+    height: 845px;
+    object-fit: cover;
+    margin-left: 240px;
+}
+
+.cont01 nav ul li:nth-child(1) {
+    font-size: 15px;
+    font-family: 'Noto Sans KR';
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.cont01 nav ul li:nth-child(2) {
+    font-size: 60px;
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.cont01 nav ul li:nth-child(3) {
+    font-size: 28px;
+    font-family: 'Noto Sans KR';
+    font-weight: normal;
+    margin-bottom: 45px;
+    margin-left: 100px;
+
+}
+.cont01 nav ul li:nth-child(4) {
+    font-size: 16px;
+    font-family: 'Noto Sans KR';
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-left: 100px;
+
+}
+
+.cont01 nav ul a {
+    font-size: 20px;
+    text-decoration:underline;
+    text-decoration-color: currentColor;
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+/* cont02~~~~~~~~~~~~~~~ */
+
+.cont02 {
+    display: flex;
+}
+.cont02 img {
+    width: 703px;
+    height: 845px;
+    object-fit: cover;
+    
+}
+
+.cont02 nav ul li:nth-child(1) {
+    font-size: 15px;
+    font-family: 'Noto Sans KR';
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.cont02 nav ul li:nth-child(2) {
+    font-size: 60px;
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.cont02 nav ul li:nth-child(3) {
+    font-size: 28px;
+    font-family: 'Noto Sans KR';
+    font-weight: normal;
+    margin-bottom: 45px;
+
+}
+.cont02 nav ul li:nth-child(4) {
+    font-size: 16px;
+    font-family: 'Noto Sans KR';
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.cont02 nav ul a {
+    font-size: 20px;
+    text-decoration:underline;
+    text-decoration-color: currentColor;
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+}
+
+
+
+
+/* box ~~~~~~~~~~~~~~~*/
+
+
+.box .inner h2 {
+    font-size: 45px;
+    font-weight: normal;
+    font-family: 'Noto Sans KR';
+}
+
+.box .inner .list {
+    display: flex;
+}
+
+.box .inner .list .item01 figure img {
+    
+    
+} 
+.box .inner .list .item01 {
+    color: #161616;
+    width: 456px;
+    height: 522px;
+    border: 1px solid #000;
+    background-color: #fff;
+    
+}
+.box .inner .list .item01 nav ul li:nth-child(1) {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Noto Sans KR';
+    width: 55px;
+    height: 28px;
+    background-color:#2a2a2a;
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+       
+    
+}
+.box .inner .list .item01 nav ul li:nth-child(2) {
+    font-size: 21px;
+    font-weight: normal;
+    font-family: 'Noto Sans KR';
+    padding: 0 0 0 32px;
+}
+
+
+.box .inner .list .item01 nav ul li:nth-child(3) {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Noto Sans KR';
+    color: #1b1b1b;
+    padding: 0 0 0 32px;
+}
+.box .inner .list .item01 nav ul li:nth-child(4) {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Noto Sans KR';
+    color: #a59e9b;
+    padding: 24 0 33 32px;
+}
+.box .inner .list .item01 div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 30px 50px;
+}
+.box .inner .list .item01 div img {
+    width: 39px;
+    height: 39px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 하단~~~~~~~~~~~~~~~~~~ */
+

@@ -2,9 +2,14 @@
 
 /* 초기값, 공통요소(제목, 버튼, 폰트스타일), 웹폰트 */
 @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
 
 .nanummyeongjo * {
- font-family: 'Nanum Myeongjo', serif;
+ font-family: 'Nanum Myeongjo'
 }
 *{
     margin: 0;
@@ -23,8 +28,11 @@ li {
 body {
     color: #333;
     line-height: 1;
-   
-}
+    
+    background-color: #0c0c0cfb;
+    font-family: 'Nanum Myeongjo', serif;
+
+   }
 /* 공통 스타일 */
 .inner {
     width: 1440px;

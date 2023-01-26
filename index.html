@@ -16,7 +16,9 @@
 <header>
     <div class="inner">
         <h1>
-            <a href="#">박진선</a> <!-- 로고 만들어야함 -->
+            <a href="#">
+                <img src="img/333.png" alt=" 로고" />
+            </a> <!-- 로고 만들어야함 -->
         </h1>
         <nav>
             <ul>
@@ -37,13 +39,15 @@
 <section class="main_visual">
     <!-- placeholder.com -->
     <video autoplay muted loop>
-        <source src="img/video.mp4" type="video/mp4" />
+        <source src="img/video (2).mp4" type="video/mp4" />
     </video>
+    <p>ParkJinSeon<br />Designer</p>                        
 </section><!-- .main_visual end -->
 
 <section class="video">
     <div class="inner">
         <div class="title">
+            
             <h3>영상편집/모션그래픽</h3>
             <p>프리미어프로, 애프터이펙트 등을 사용하여 영상편집/모션그래픽 진행</p>
         </div><!-- .title end -->
@@ -206,7 +210,7 @@
         <div class="list">
             <div class="item">
                 <figure>
-                    <img src="img/스포티파이-리디자인최종.png" alt=""/>
+                    <img src="img/Spotify1.jpg" alt=""/>
                 </figure>
                 <div class="info">
                     <h4>리뉴얼사이트 이름 작성</h4>
@@ -230,7 +234,7 @@
             
             <div class="item">
                 <figure>
-                    <img src="https://via.placeholder.com/464x370" alt=""/>
+                    <img src="img/saem.jpg" alt=""/>
                 </figure>
                 <div class="info">
                     <h4>리뉴얼사이트 이름 작성</h4>
@@ -245,7 +249,7 @@
                         <dd>html, css</dd>
                     </dl>
                     <ul class="btn">
-                        <li><a href="#">제작사이트보기</a></li>
+                        <li><a href="sub/sa/index.html">제작사이트보기</a></li>
                         <li><a href="#">기획서보기</a></li>
                     </ul><!-- .btn end -->
                 </div><!-- .info end -->
@@ -436,6 +440,19 @@
 
 </script>
 </body>
+<div class="loading">
+    <img src="img/circles-menu-1.gif" alt=""/>
+</div><!-- .loading -->
+
+  <!-- 1. 제이쿼리 라이브러리 
+    cdnjs.com => jquery 검색 첫번째 링크 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        setTimeout(function(){
+            /* $('.loading').fadeOut(700); */
+            $('.loading').slideUp();
+        }, 2000);
+    </script>
 
 </body>
 
